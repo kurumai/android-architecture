@@ -1,5 +1,7 @@
 # todo-mvp-kotlin
 
+[![CircleCI](https://circleci.com/gh/ganezasan/android-architecture/tree/todo-mvp-kotlin.svg?style=svg&circle-token=d2bff7a9b67331be488bce18d8ea2ca5edd415cb)](https://circleci.com/gh/ganezasan/android-architecture/tree/todo-mvp-kotlin)
+
 This version of the app is called todo-mvp-kotlin, and provides a foundation for other kotlin samples in this project. The sample aims to:
 
 * Provide a basic [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (MVP) architecture without using any architectural frameworks.

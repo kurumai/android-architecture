@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "todoapp-noboru",
+  "private_key_id": "2f4b49c2725178b05c11ac22f3eee2d4ce6d2fa8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCJp7CI4X3u/4q\ne/ttjktplOI4gNldFLzDRYKAoyWBD+ToeqBx6CGI/1Cv5ckYBQ1YsUZyEcuEpCvo\niAs3NpowLffFofX5oUnakXHAohuveOyEjpZpt20eeRXFKJH1k9xNCi57CRLpjO2F\nPyhNTQrP68/yc9Ir7eIe9a7lTtow7B9egTdyq185zBNggmXRkjoiDAWmByoBrw5h\nhtFFYyPQ49JO0X9jjoCkktktG5XUEPPyoOnvAKFSapBL3aEZt/REQcFaHPGOSQkG\nko9q8mvHFS4b/vSLytxJU1DNspAhLvtqKVjy+jOFqIi0sfOtpmaBRU3ANjPdpHlt\nhayQJk1zAgMBAAECggEARQEu+fdgPR2vB3CLe3PQr9T/1m9NUjz1nj3NVWUnBkkc\n5df3wKRtjuCXz/zOzV+2T6iqTg6vFBS5mmsH+XbJtIgSAUdAQpolwq5hDMNRLbu/\n7Jk1MpvEB8mniCyUPAFyklslDAu8kg/Jt8srytWwGxhID3dE4uIotTJDGDM/b5VO\nQjlyogK5FsIujtZtgOjy00szWmEKkXxmyjG4ODJlrGU0AKOmovNTf8lBn4D3DQbZ\nORaVcO6DS0ESY4Dgs268m8B/FtVYBVEmaXg9wy7L4T3H1hGNuoVsZObxHkoYy2yi\n55gbJFGf/4KncGj4qK5wMsnJzo5/zVrgUaeS5zlIqQKBgQDlbXIzlFrtLGrtN6hB\nhH0bSbcUY0HehsnLYYfflS/uUmryf8VDO0DqLT8K9p/JquSYRfpxPGVpblhqv0Mj\n4zelRtSBZGjmsTX9yQ0bBInJFjQEOvyVjNG09K0WVe5jt0Em/V+royB3Npf8crpY\nhmKTMAhNEM96xFFEjNTSo5jNPQKBgQDYozd48cNtH43/XPgIMeMgwTUpeHGPMoB/\nmwsP3nDjfyp5pL0Lwo3a1hm6RJEc4rb6RFeezotjvsmPD97FOACIjWwTW2SYIJNh\n0OrwD0U+4u8Fi9cU/yLt3n+hOczHL6zOiuP1QCXUbmyVD3CQ4ZLWQqHVUvq6J9X/\nB56+cG+QbwKBgQCjFOYdpfHwLyeekXaHg97OG9sIofl7bUJZ0G0dz9UvSeR9lbcp\nsB/Xlev/Jgm090Xgu7Vm8nB/vhEZZ/UYuHWghTWe+Dnc6dCgIl6ves1aY+77ptZO\nk7epMlcqzlBTDzs/tNFhluYH94WXzBGLxZKiX303EqD4+j1uRdEuHV4LXQKBgCYU\niqu306Ja6Zr5vJ+0JTicvbuMcGm7dtr3ZfpkH3Pd5pl7W7+1czoEaIFVjCyHraJQ\nYRaJN/dQkh2TrJT+Qxm9wkGkzwnur/mBv8py5LkpKtrOuf/22Sz273hnsJdSyg2E\nXI2/uOaegnexPxg4jpcbH1dgPrJ6TiOGM2FGYlYBAoGATemebYP7G8zxY2XsxDK6\nXgBpSGFKUy6C1aPJWo1XwGlKtUosvHdKjWZdvV/1+zCDflnrTRBeziE172iuV3yV\nxTlUex7LEabZCM0iza45PW3tPbyjvEn/YGmz49LI7MjlNmsgO4471V9jOsZGW4nj\npJB66Pek2bBVAWo8by5Ez9o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kurumai@todoapp-noboru.iam.gserviceaccount.com",
+  "client_id": "100707390776193853504",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kurumai%40todoapp-noboru.iam.gserviceaccount.com"
+}

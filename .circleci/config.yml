@@ -1,0 +1,53 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/todo-kotlin/todoapp
+    docker:
+      - image: circleci/android:api-28-alpha
+    environment:
+      GRADLE_OPTS: -Dorg.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+    steps:
+      - checkout:
+          path: ~/todo-kotlin
+      - restore_cache:
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+      - run:
+          name: Download Dependencies
+          command: |
+            ./gradlew androidDependencies
+      - run:
+          name: Lint and Test
+          command: |
+            ./gradlew lint test
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+      - store_artifacts:
+          path: app/build/reports
+          destination: app-reports
+      - store_test_results:
+          path: app/build/test-results
+
+      - run:
+          name: KeyStore
+          command: echo $RELEASE_KEYSTORE | base64 --decode > app/release.keystore
+
+      - run:
+          name: Build debug APK and release APK
+          command: |
+            ./gradlew assembleDebug
+            ./gradlew assembleRelease
+
+      - store_artifacts:
+          path: app/build/outputs/apk/prod/release/app-prod-release.apk
+          destination: app-release.apk
+
+      - store_artifacts:
+          path: app/build/outputs/mapping/
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
